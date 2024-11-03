@@ -1,0 +1,36 @@
+style.css
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-name, .product-company, .product-price {
+  margin: 0.5rem 0;
+}
